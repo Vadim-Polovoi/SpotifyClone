@@ -10,7 +10,7 @@ import UIKit
 
 final class MusicPlayerViewController: UIViewController {
     
-    var song: Song
+    private let song: Song
     
     private lazy var mediaPlayer: MediaPlayerView = {
         let player = MediaPlayerView(song: song)
