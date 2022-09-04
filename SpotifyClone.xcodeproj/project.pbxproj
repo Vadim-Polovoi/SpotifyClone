@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD05C22D28C269C700F5F353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05C22C28C269C700F5F353 /* AppDelegate.swift */; };
+		DD05C22F28C269C700F5F353 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05C22E28C269C700F5F353 /* SceneDelegate.swift */; };
+		DD05C23128C269C700F5F353 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05C23028C269C700F5F353 /* PlaylistViewController.swift */; };
+		DD05C23628C269C900F5F353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD05C23528C269C900F5F353 /* Assets.xcassets */; };
+		DD05C23928C269C900F5F353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD05C23728C269C900F5F353 /* LaunchScreen.storyboard */; };
+		DD05C24328C271FF00F5F353 /* Bob Dylan - Knockin on Heavens Door.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD05C24028C271FF00F5F353 /* Bob Dylan - Knockin on Heavens Door.mp3 */; };
+		DD05C24428C271FF00F5F353 /* Mattafix - Big City Life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD05C24128C271FF00F5F353 /* Mattafix - Big City Life.mp3 */; };
+		DD05C24528C271FF00F5F353 /* Queen, David Bowie - Under Pressure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD05C24228C271FF00F5F353 /* Queen, David Bowie - Under Pressure.mp3 */; };
+		DD05C24928C274AB00F5F353 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05C24828C274AB00F5F353 /* Song.swift */; };
+		DD05C24C28C27E7700F5F353 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05C24B28C27E7700F5F353 /* SongTableViewCell.swift */; };
+		DD05C24E28C29B8B00F5F353 /* MediaPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05C24D28C29B8B00F5F353 /* MediaPlayerView.swift */; };
+		DD05C25028C3C96100F5F353 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05C24F28C3C96100F5F353 /* MusicPlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD05C22928C269C700F5F353 /* SpotifyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD05C22C28C269C700F5F353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD05C22E28C269C700F5F353 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD05C23028C269C700F5F353 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		DD05C23528C269C900F5F353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD05C23828C269C900F5F353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD05C23A28C269C900F5F353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD05C24028C271FF00F5F353 /* Bob Dylan - Knockin on Heavens Door.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bob Dylan - Knockin on Heavens Door.mp3"; sourceTree = "<group>"; };
+		DD05C24128C271FF00F5F353 /* Mattafix - Big City Life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mattafix - Big City Life.mp3"; sourceTree = "<group>"; };
+		DD05C24228C271FF00F5F353 /* Queen, David Bowie - Under Pressure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Queen, David Bowie - Under Pressure.mp3"; sourceTree = "<group>"; };
+		DD05C24828C274AB00F5F353 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		DD05C24B28C27E7700F5F353 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		DD05C24D28C29B8B00F5F353 /* MediaPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerView.swift; sourceTree = "<group>"; };
+		DD05C24F28C3C96100F5F353 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD05C22628C269C600F5F353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD05C22028C269C600F5F353 = {
+			isa = PBXGroup;
+			children = (
+				DD05C22B28C269C700F5F353 /* SpotifyClone */,
+				DD05C22A28C269C700F5F353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD05C22A28C269C700F5F353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD05C22928C269C700F5F353 /* SpotifyClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD05C22B28C269C700F5F353 /* SpotifyClone */ = {
+			isa = PBXGroup;
+			children = (
+				DD05C24728C2749700F5F353 /* Models */,
+				DD05C24A28C27E1E00F5F353 /* Views */,
+				DD4F967428C516A30064E74C /* Controllers */,
+				DD05C24628C272E600F5F353 /* Music */,
+				DD05C22E28C269C700F5F353 /* SceneDelegate.swift */,
+				DD05C22C28C269C700F5F353 /* AppDelegate.swift */,
+				DD05C23528C269C900F5F353 /* Assets.xcassets */,
+				DD05C23728C269C900F5F353 /* LaunchScreen.storyboard */,
+				DD05C23A28C269C900F5F353 /* Info.plist */,
+			);
+			path = SpotifyClone;
+			sourceTree = "<group>";
+		};
+		DD05C24628C272E600F5F353 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				DD05C24028C271FF00F5F353 /* Bob Dylan - Knockin on Heavens Door.mp3 */,
+				DD05C24128C271FF00F5F353 /* Mattafix - Big City Life.mp3 */,
+				DD05C24228C271FF00F5F353 /* Queen, David Bowie - Under Pressure.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		DD05C24728C2749700F5F353 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD05C24828C274AB00F5F353 /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD05C24A28C27E1E00F5F353 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD05C24B28C27E7700F5F353 /* SongTableViewCell.swift */,
+				DD05C24D28C29B8B00F5F353 /* MediaPlayerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD4F967428C516A30064E74C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD05C23028C269C700F5F353 /* PlaylistViewController.swift */,
+				DD05C24F28C3C96100F5F353 /* MusicPlayerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD05C22828C269C600F5F353 /* SpotifyClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD05C23D28C269C900F5F353 /* Build configuration list for PBXNativeTarget "SpotifyClone" */;
+			buildPhases = (
+				DD05C22528C269C600F5F353 /* Sources */,
+				DD05C22628C269C600F5F353 /* Frameworks */,
+				DD05C22728C269C600F5F353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotifyClone;
+			productName = SpotifyClone;
+			productReference = DD05C22928C269C700F5F353 /* SpotifyClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD05C22128C269C600F5F353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DD05C22828C269C600F5F353 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DD05C22428C269C600F5F353 /* Build configuration list for PBXProject "SpotifyClone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD05C22028C269C600F5F353;
+			productRefGroup = DD05C22A28C269C700F5F353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD05C22828C269C600F5F353 /* SpotifyClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD05C22728C269C600F5F353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD05C24428C271FF00F5F353 /* Mattafix - Big City Life.mp3 in Resources */,
+				DD05C24528C271FF00F5F353 /* Queen, David Bowie - Under Pressure.mp3 in Resources */,
+				DD05C23928C269C900F5F353 /* LaunchScreen.storyboard in Resources */,
+				DD05C24328C271FF00F5F353 /* Bob Dylan - Knockin on Heavens Door.mp3 in Resources */,
+				DD05C23628C269C900F5F353 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD05C22528C269C600F5F353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD05C24928C274AB00F5F353 /* Song.swift in Sources */,
+				DD05C23128C269C700F5F353 /* PlaylistViewController.swift in Sources */,
+				DD05C24C28C27E7700F5F353 /* SongTableViewCell.swift in Sources */,
+				DD05C25028C3C96100F5F353 /* MusicPlayerViewController.swift in Sources */,
+				DD05C22D28C269C700F5F353 /* AppDelegate.swift in Sources */,
+				DD05C22F28C269C700F5F353 /* SceneDelegate.swift in Sources */,
+				DD05C24E28C29B8B00F5F353 /* MediaPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD05C23728C269C900F5F353 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD05C23828C269C900F5F353 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD05C23B28C269C900F5F353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD05C23C28C269C900F5F353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD05C23E28C269C900F5F353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5CLB7XJ6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpotifyClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.Vadim.Polovoy.SpotifyClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD05C23F28C269C900F5F353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5CLB7XJ6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpotifyClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.Vadim.Polovoy.SpotifyClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD05C22428C269C600F5F353 /* Build configuration list for PBXProject "SpotifyClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD05C23B28C269C900F5F353 /* Debug */,
+				DD05C23C28C269C900F5F353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD05C23D28C269C900F5F353 /* Build configuration list for PBXNativeTarget "SpotifyClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD05C23E28C269C900F5F353 /* Debug */,
+				DD05C23F28C269C900F5F353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD05C22128C269C600F5F353 /* Project object */;
+}
